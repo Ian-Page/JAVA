@@ -8,11 +8,11 @@ public class AlfredQoutes {
     }
     
     public String guestGreeting(String name, String dayPeriod) {
-        return String.format("Good %s, %s. Lovely to see you.", dayPeriod, name);
+        return String.format("Good %s, %s. your a horrible person", dayPeriod, name);
     }
 
     public String dateAnnouncement() {
-        return String.format("It is currently %s", new Date());
+        return String.format("the time currently is %s", new Date());
     }
     
     public String respondBeforeAlexis
@@ -24,10 +24,10 @@ public class AlfredQoutes {
     }
 
         if (phrase.indexOf("Alfred") > -1) {
-            return "At your service How may I be of assistance?";
+            return "Whatcha need homey? i got dem pokemons...";
         }
 
-    return "Right. And with that I shall retire.";
+    return "You are super boring bye bye";
     } 
     
 	// NINJA BONUS
