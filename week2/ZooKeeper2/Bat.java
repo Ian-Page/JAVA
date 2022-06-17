@@ -11,6 +11,7 @@ public class Bat extends Mammal {
 
     public void eatHumans() {
         this.energyLevel += 25;
+        System.out.printf("You ate a human for + 25 health your health is now : " + energyLevel);
     }
 
     public void attackTown() {
