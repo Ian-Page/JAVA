@@ -16,7 +16,7 @@ public class Bat extends Mammal {
 
     public void attackTown() {
         System.out.println(
-                "BURN BABY BURN THE TOWNS A INFERNO, THE ROOF IS ON FIRE THE ROOF THE ROOF IS ON FIRE , THIS TOWN IS LIT!!!!");
+                "BURN BABY BURN THE TOWNS A INFERNO, THE ROOF IS ON FIRE THE ROOF THE ROOF IS ON FIRE , THIS TOWN IS LIT BOYYYY!!!!");
         this.energyLevel -= 100;
     }
 }
